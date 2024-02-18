@@ -4,3 +4,5 @@
 __pycache__/
 .venv/
 .env
+treehacks_2024/secret_key.json
+*.pickle

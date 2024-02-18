@@ -36,7 +36,7 @@ restaurant_dict = response.json()
 idList = []
 topk = 1
 for i in range(topk):
-    idList.append(restaurant_dict['places'][0]['id'])
+    idList.append(restaurant_dict['places'][i]['id'])
 
 # Get Reviews from details search results
 headers_details = {
